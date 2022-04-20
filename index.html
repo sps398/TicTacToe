@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TicTacToe Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="tic.js"></script>
+</head>
+
+<body>
+    <br>
+    <h1>TicTacToe Game</h1><br><br><br>
+    <div class="center1">
+        <input type="text" id="b1" name="b1" onclick="set(id)" readonly>
+        <input type="text" id="b2" name="b2" onclick="set(id)" readonly>
+        <input type="text" id="b3" name="b3" onclick="set(id)" readonly><br><br>
+        <input type="text" id="b4" name="b4" onclick="set(id)" readonly>
+        <input type="text" id="b5" name="b5" onclick="set(id)" readonly>
+        <input type="text" id="b6" name="b6" onclick="set(id)" readonly><br><br>
+        <input type="text" id="b7" name="b7" onclick="set(id)" readonly>
+        <input type="text" id="b8" name="b8" onclick="set(id)" readonly>
+        <input type="text" id="b9" name="b9" onclick="set(id)" readonly><br><br><br><br>
+    </div>
+    <div class="center2">
+        <input type="text" id="zero" name="0" value="0" onclick="setStartingChance(id)" readonly>
+        <input type="text" id="X" name="X" value="X" onclick="setStartingChance(id)" readonly>
+    </div>
+
+    <br><br><br><br>
+    <p id="print">Hello! Choose either 0 or X to start.</p><br><br>
+    <div class="right">
+        <button id="reset" name="reset" onclick="reset()">Reset</button>
+    </div>
+</body>

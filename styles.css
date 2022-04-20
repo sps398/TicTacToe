@@ -1,0 +1,70 @@
+    .center1 {
+        margin-left: auto;
+        margin-right: auto;
+        width:400px;
+    }
+
+    .center2 {
+        margin-left: auto;
+        margin-right: auto;
+        width:200px;
+    }
+
+    h1 {
+        text-align: "center";
+        margin-left: auto;
+        margin-right: auto;
+        width:300px;
+    }
+
+    #print {
+        margin-left: 550px;
+        margin-right: auto;
+        width: 350px;
+        height: 40px;
+        color:brown;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    #b1, #b2 , #b3 , #b4, #b5, #b6, #b7, #b8, #b9 {
+        width: 95px;
+        height: 40px;
+        margin: auto;
+        border: 1px solid gray;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #zero,#X {
+        width: 45px;
+        height: 40px;
+        margin: auto;
+        border: 1px solid gray;
+        /* border-radius: 6px; */
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #reset {
+        margin-left: 100px;
+        margin-right: auto;
+        width: 95px;
+        height: 40px;
+        border: 1px solid dodgerblue;
+        border-radius: 4px;
+        font-family: Verdana;
+ 
+        background-color: dodgerblue;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .right {
+        margin-left: auto;
+        margin-right: 200px;
+        width: 50px;
+    }
